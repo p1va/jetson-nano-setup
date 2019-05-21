@@ -80,3 +80,7 @@ sudo apt-get install libhdf5-serial-dev hdf5-tools
 ```
 pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
 ```
+## Install libcanberra to avoid warnings
+```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+```
